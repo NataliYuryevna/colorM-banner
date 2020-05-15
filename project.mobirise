@@ -17,7 +17,7 @@
         "subtitleFont": "Montserrat",
         "textFont": "Open Sans",
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       }
     },
@@ -144,7 +144,7 @@
             "buttonAlign": "right",
             "showArrow": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/012.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/013.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#2c3e50",
