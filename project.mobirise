@@ -25,8 +25,9 @@
     "versionFirst": "5.0.2",
     "siteFonts": [],
     "imageResize": true,
-    "uniqCompNum": 7,
-    "versionPublish": "5.0.2"
+    "uniqCompNum": 8,
+    "versionPublish": "5.0.2",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -39,6 +40,21 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div class=\"container-banner\">\n    <div class=\"banner align-center\" style=\"position:fixed; top: 0; left: 0; background: #fff; padding: 10px; width: 100%;\">\n      <p class=\"mbr-text mbr-fonts-style display-7\">Warning: This temporarily published website will be removed after one month of inactivity. To avoid removal, connect your own domain.<br>The site was created with Mobirise Free Website Builder.</p><a class=\"btn btn-sm btn-primary display-4\" href=\"https://mobirise.com/how-to/make-your-own-website/\">Create Your Website!</a>\n    </div>\n  </div>",
+          "_customCSS": "& + .navbar-fixed-top {\n      top: auto;\n    }\n    .container-banner {\n      height: 138px;\n      animation: 4s linear animationHeight;\n    } \n.btn {\n    margin:0;\n}\n    .banner {\n      min-height: 138px;\n      max-height: 150px;\n      overflow: hidden !important;\n      opacity:1;\n      animation: 4s linear animationBanner;\n      z-index: 1031;\n    }\n    @keyframes animationBanner {\n      0% { opacity: 0; top: -138px}\n      75% { opacity: 0; top:-138px}\n      100% { opacity: 1; top: 0;}\n    }\n    @keyframes animationHeight {\n      0% { height: 0; }\n      75% { height: 0; }\n      100% { height: 138px; }\n    }",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "custom-html-7"
+        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
